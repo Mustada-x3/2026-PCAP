@@ -5,4 +5,4 @@ IFPR - Centro de Referência Ponta Grossa|1º ano| 2026
 Professor: Dr.João Henrique Berssanette(Profe. Berssa)
 
 ##Organização
--'aula-09' - Python:variáveis, tipos de dados, operadores
+-'aula-09/' - Python:variáveis, tipos de dados, operadores
