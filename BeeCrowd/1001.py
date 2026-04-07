@@ -7,7 +7,9 @@ Alice Ribeiro Marenda
 #Objetivo: armazene valores inteiros nas variaveis A e B. Efetue a soma de A e B atribuindo seu valor na variavel X.
 
 #---Análise(LIAC)---
-#Entrada: 
+#Entrada: dois números inteiros em linhas separadas
+#Processamento: somar A + B e armazenar esse valor em X
+#Saída: exibir "X = valor de A + B"
 
 A = int(input())
 B = int(input())
