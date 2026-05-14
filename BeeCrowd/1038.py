@@ -18,8 +18,9 @@ Alice Ribeiro Marenda
 #Processamento: calcular o preço com base nos numeros de entrada
 #Saida: exibir "Total: R$" com duas casas após o ponto decimal
 
-c = int(input())
-q = int(input())
+c, q = input().split()
+c = int(c)
+q = int(q)
 if c == 1 :
     n1 = 4.00 * q
     print(f"Total: R$ {n1:.2f}")
@@ -34,4 +35,4 @@ elif c == 4 :
     print(f"Total: R$ {n4:.2f}")
 elif c == 5 :
     n5 = 1.50 * q
-    print(f"Total: R$ {n5:.2f}")
+    print(f"Total R$ {n5:.2f}")
