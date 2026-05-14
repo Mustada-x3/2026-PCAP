@@ -13,26 +13,19 @@ Alice Ribeiro Marenda
 N = int(input())
 if N == 61 :
     print("Brasilia")
-
-if N == 71 :
+elif N == 71 :
     print("Salvador")
-
-if N == 11 :
+elif N == 11 :
      print("Sao Paulo")
-
-if N == 21 :
+elif N == 21 :
      print("Rio de Janeiro")
-
-if N == 32 :
+elif N == 32 :
      print("Juiz de Fora")
-
-if N == 19 :
+elif N == 19 :
     print("Campinas")
-
-if N == 27 :
-    print("Vitoria")
-
-if N == 31 :
-    print("Belo Horizonte")
-if N != 61 or 71 or 11 or 21 or 32 or 19 or 27 or 31 :
-    print("DDD nao cadastrdo")                    
+elif N == 27 :
+    print("Vitoria")   
+elif N == 31 :
+    print("Belo Horizonte")        
+else:
+    print("DDD nao cadastrado")
