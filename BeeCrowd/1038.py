@@ -1,4 +1,12 @@
 '''
+Problema 1035 BeeCrowd
+Alice Ribeiro Marenda
+14.05.26
+'''
+#Objetivo: ler 4 valores inteiros(A, B, C, D), se B for maior que C e D for maior que A , a soma de C e D for maior do que a de A e B, sendo C e D positivos e A um numero par exibir "Valores aceitos", caso o contrario exibir "Valores nao aceitos"
+
+#---Analise(LIAC)---
+'''
 Problema 1038 BeeCrowd
 Alice Ribeiro Marenda
 14.05.26
