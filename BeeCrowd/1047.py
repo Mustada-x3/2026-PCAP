@@ -10,7 +10,12 @@ Alice Ribeiro Marenda
 #Processamento: determinar por meio de uma operação matematica quanto tempo o jogo durou
 #Saida: exibir "O JOGO DUROU XX HORAS E XX MINUTOS"
 
-h1, m1, h2, m2 = map(int, input().split())
+h1, m1, h2, m2 = input().split()
+h1 = int(h1)
+m1 = int(m1)
+h2 = int(h2)
+m2 = int(m2)
+
 if (h1 == 1) and (m1 < m2):
     r1 = 60 - m1
     m = r1 -m2
