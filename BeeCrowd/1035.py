@@ -10,10 +10,11 @@ Alice Ribeiro Marenda
 # Processamento: determinar se B > C, D > A, D + C > A + B, D e C sendo numeros positivos e A é par
 # Saida: caso a analise seja correta exibir "Valores aceitos", caso o contrário exibir "Valores nao aceitos"
 
-A = int(input())
-B = int(input())
-C = int(input())
-D = int(input())
+A, B, C, D = input().split()
+A = int(A)
+B = int(B)
+C = int(C)
+D = int(D)
 if (((B > C) and (D > A)) and ((A + B) < (D + C)) and ((C > 0) and (D > 0)) and (A % 2 == 0)) :
     print("Valores aceitos")
 else: 
