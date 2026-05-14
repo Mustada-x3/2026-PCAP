@@ -12,26 +12,26 @@ Alice Ribeiro Marenda
 
 n = int(input())
 if n == 1 :
-    print("Janeiro")
+    print("January")
 elif n == 2 :
-    print("Fevereiro")
+    print("February")
 elif n == 3 :
-    print("Março")
+    print("March")
 elif n == 4 :
-    print("Abril")
+    print("April")
 elif n == 5 :
-    print("Maio")
+    print("May")
 elif n == 6 :
-    print("Junho")
+    print("June")
 elif n == 7 :
-    print("Julho")
+    print("July")
 elif n == 8 :
-    print("Agosto")
+    print("August")
 elif n == 9 :
-    print("Setembro")
+    print("September")
 elif n == 10 :
-    print("Outubro")
+    print("October")
 elif  n == 11 :
-    print("Novembro")
+    print("November")
 elif n == 12 :
-    print("Dezembro")
+    print("December")
