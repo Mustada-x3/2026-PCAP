@@ -15,4 +15,6 @@ a = int(a)
 b = int(b)
 c = int(c)
 
-m1 = (a + b )
+m1 = (a + b + abs(a - b)) / 2
+m2 = (m1 + c + abs(m1 - c)) / 2
+print(f"{m2:.0f} eh o maior")
