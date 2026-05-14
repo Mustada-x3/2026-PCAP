@@ -10,37 +10,15 @@ Alice Ribeiro Marenda
 #Processamento: determinar por meio de uma operação matematica quanto tempo o jogo durou
 #Saida: exibir "O JOGO DUROU XX HORAS E XX MINUTOS"
 
-h1, m1, h2, m2 = input().split()
-h1 = int(h1)
-m1 = int(m1)
-h2 = int(h2)
-m2 = int(m2)
+h1, m1, h2, m2 = map(int,input().split())
+tim = (h1 * 60) + m1
+tfm = (h2 * 60) + m2
 
-if (h1 == 1) and (m1 < m2):
-    r1 = 60 - m1
-    m = r1 -m2
-    h = 0
-    print("O JOGO DUROU %d HORA(S) E %d MINUTOS(S)" %(h, m))
-elif (h1 < h2) and (m1 < m2):
-    h = h2 - h1
-    m = m2 - m1
-    print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" %(h, m))
-elif (h1 == h2) and (m1 == m2):
-    print("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)")
-elif (h1 < h2) and (m1 > m2):
-    h = (h2 - h1)-1
-    r1 = 60 - m1
-    m = r1 + m2
-    print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" %(h. m ))
-elif (h1 == h2) and (m1 < m2):
-    m = m2 - m1
-    print("O JOGO DUROU 0 HORA(S) E %m MINUTO(S)")
-elif (h1 > h2):
-    h=(24 - h1) + h2
-    m= m2 - m1
-    if (m1 > m2):
-        h = h-1
-        m = (6 - m1) + m2
-        print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" %(h,m))
-    else:
-        print("O JOGO DUROU %d HORA(S) E %d MINUTO(S)" %(h,m))
+if tim > tfm:
+    ttm = (tfm - tim) + (24 * 60)
+else:
+    ttm = tfm - tim
+
+if ttm == 0 :
+    ttm = 24 * 60
+print(f"O JOGO DUROU {ttm // 60} HORA(S) E {ttm % 60} MINUTO(S)")
