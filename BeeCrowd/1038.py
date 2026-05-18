@@ -22,17 +22,11 @@ c, q = input().split()
 c = int(c)
 q = int(q)
 if c == 1 :
-    n1 = 4.00 * q
-    print(f"Total: R$ {n1:.2f}")
-elif c == 2 :
-    n2 = 4.50 * q
-    print(f"Total: R$ {n2:.2f}")
-elif c == 3 :
-    n3 = 5.00 * q
-    print(f"Total R$ {n3:.2f}")
+    n3 = 4.00 * q
+    print(f"Total: R$ {n3:.2f}")
 elif c == 4 :
     n4 = 2.00 * q 
     print(f"Total: R$ {n4:.2f}")
 elif c == 5 :
     n5 = 1.50 * q
-    print(f"Total R$ {n5:.2f}")
+    print(f"Total: R$ {n5:.2f}")
