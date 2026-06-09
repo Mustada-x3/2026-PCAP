@@ -25,20 +25,29 @@ def jogar(maximo, chances):
 
         chances = chances - 1 
         print("Chances restantes:", chances)
+        
+    print("O número secreto era:", numero_secreto)
 
     return acertou
+
+c2 = random.randint(1, 20)
+n = random.randint(1, 999)
 
 niveis = [
     ["Fácil", 10, 3],
     ["Médio", 100, 5],
+    ["Difícil", 500, 10],
     ["Impossível", 1000, 10],
+    ["Aleatório",n, c2],
 ]
 
 print("Escolha o nível de dificuldade:")
 print("1 - Fácil        (1 a 10, 3 chances")
 print("2 - Médio        (1 a 100, 5 chances)")
-print("3 - Impossível   (1 a 1000, 10 chances)")
-opçao = int(input("Digite 1, 2 ou 3: "))
+print("3 - Difícil      (1 a 500, 10 chances)")
+print("4 - Impossível   (1 a 1000, 10 chances)")
+print("5 - Aleatório    (1 a 999, de 1 a 20 chances)")
+opçao = int(input("Digite 1, 2, 3, ou 5: "))
 
 nivel = niveis[opçao - 1]
 
