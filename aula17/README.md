@@ -48,3 +48,5 @@ Justificativa (cite arquivo e linha de cada critério):
 - Adições pessoais:
  * Pedra-Papel-Tesoura-Lagarto-Spock
  * Vitória definitiva - define quem foi o real vencedor com base na quantidade de vitórias de cada um.
+
+AUTOR: Alice Ribeiro Marenda
