@@ -10,4 +10,10 @@ Fundamentos na Atividade Par ou Impar
 
 -Entrada:
 
+ jogador = int(input("Escolha um número de 0 a 5:"))
+ Quem está jogando deve escolher um número de 1 a 5
+
+-Operadores:
  
+ soma = maquina + jogadorv
+ O operador + soma o valor do número da máquina e do jogador o adicionando na variavel soma
