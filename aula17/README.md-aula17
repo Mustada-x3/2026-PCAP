@@ -1,0 +1,21 @@
+Alice Ribeiro Marenda
+
+Fundamnetos na Atividade Pedra Papel Tesoura
+
+-Estruturas de Repetição:
+ 
+ for rodada in range(1, 6):
+ Estrutura de Repetição que faz com que o codigo que está dentro dela seja repetido 5 vezes
+ Linha 31
+
+-Entrada:
+ 
+ print("--- Rodada", rodada, "---")
+ Manda uma mensagem para o jogador indicando qula a rodada atual
+ Linha 32
+
+-Saida:
+ 
+ jogada_jogador = input("Sua jogada(pedra, papel, tesoura, lagarto ou spock):").lower().strip()
+ Nesse código o jogador deve escrever uma das opções que a máquina demonstra, mandando o seu resposta em forma de texto
+ Linha 35
