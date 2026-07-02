@@ -23,9 +23,9 @@ def jogar(maximo, chances):
         else:
             print("🔼 Muito alto! Tente um número menor.")
 
-        chances = chances - 1 
+        chances = chances - 1
         print("Chances restantes:", chances)
-        
+
     print("O número secreto era:", numero_secreto)
 
     return acertou
