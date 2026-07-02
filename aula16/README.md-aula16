@@ -1,0 +1,46 @@
+Alice Ribeiro Marenda
+
+Fundamentos na Atividade Adivinhe o Número
+
+-Variaveis:
+
+ palpite = int(input("Seu palpite (1 a " + str(maximo) + ")"))
+ Aqui palpite é uma variavel definida pelo jogador, no jogo ela é qual número o jogador acredita ser o número secreto
+ Linha 16
+
+ numero_secreto = random.randint(1, maximo)
+ O numero_secreto é uma variavel "escolhida" pela máquina por meio do random.randint, ela é o valor que o jogador deve adivinhar
+ Linha 12
+
+ c2 = random.randint(1, 20)
+ É uma variavel que determina o número de chances que o jogador tem para adivinhar o número, feita para um modo de jogo especifico em que tudo é Aleatório
+ Linha 33
+
+-Operadores:
+ 
+ chances = chances - 1
+ O - diminui a quantidade de chances a cada rodada em que ele era o numero_secreto
+ Linha 26
+
+ while chances > 0 and not acertou:
+ > determina se chances é maior que zero a cada rodada e caso não seja o jogo é encerrado
+ Linha 15
+
+ if palpite == numero_secreto:
+ O operador == determina se o palpite e o número numero_secreto são iguais
+ Linha 18
+
+-Estruturas de Seleção:
+ 
+ if palpite == numero_secreto:
+    print("🎉 Acertou! O número era", numero_secreto)
+    acertou = True
+ elif palpite < numero_secreto:
+    print("🔽 Muito baixo! Tente um número maior.")
+ else:
+    print("🔼 Muito alto! Tente um número menor.")
+
+ if - Determina a iqualdade entre duas variaveis, caso isso se confirme a programção abaixo "liga"
+ elif - Segunda opção que o programa lê caso as anteriores se provem como falsas
+ else - Quando nenhuma das outras opções é verdadeira o else é ativado, ele só será ativado se as outras "verificações" não forem verdadeiras
+ Linha 18 a 24
