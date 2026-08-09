@@ -1,0 +1,8 @@
+Fundamentos:
+    1. Variaveis e tipos de dados
+    2. Operadores
+    3. Entrada de dados
+    4. Saida de dados
+    5. Estruturas de Repetição
+    6. Estrturas de Condição
+    7. Sub-Rotinas
