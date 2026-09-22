@@ -15,18 +15,19 @@ from ppt import jogar_ppt
 from placar import salvar_placar, carregar_placar
 from jogadores import menu_jogadores, salvar_jogadores, carregar_jogadores
 from par_impar import jogar_parimpar, resultado 
+from batata import jogar_batata
 
-NOMES_DOS_JOGOS = ['Adivinhe o Número', 'Pedra-Papel-Tesoura', 'Par ou Impar']
+NOMES_DOS_JOGOS = ['Adivinhe o Número', 'Pedra-Papel-Tesoura', 'Par ou Impar', 'Batata']
 vj = carregar_placar()
 jogadores = carregar_jogadores()
 
-OPCOES = ['0', '1', '2', '3', '4']
+OPCOES = ['0', '1', '2', '3', '4', '5']
 
 NOME_DO_DONO = "ALICE RIBEIRO MARENDA"
 
 def mostrar_placar():
     titulo('PLACAR')
-    for i in range(3):
+    for i in range(len(vj)):
         print(NOMES_DOS_JOGOS[i] + ':' + str(vj[i]) + 'x')
 
 while True:
@@ -35,7 +36,8 @@ while True:
     print('1 - Jogo Adivinhe o número')
     print('2 - Jogo Pedra - Papel - Tesoura')
     print('3 - Jogo Par ou Impar')
-    print('4 - Jogadores')
+    print('4 - Jogo da Batata')
+    print('5 - Jogadores')
     print('0 - Sair do fliperama')
     linha()
     opcao = ler_opcao('Escolha uma opção: ', OPCOES)
@@ -47,7 +49,7 @@ while True:
         print('Até a proxima!')
         break
 
-    if opcao == '4':
+    if opcao == '5':
         menu_jogadores(jogadores)
     else:
         indice = int(opcao) -1
@@ -59,5 +61,7 @@ while True:
             jogar_ppt()
         elif opcao == '3':
             jogar_parimpar()
+        else:
+            jogar_batata()
 
     input('Presione Enter para voltar ao menu...')
