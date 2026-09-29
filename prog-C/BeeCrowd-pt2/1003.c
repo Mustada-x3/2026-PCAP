@@ -2,6 +2,7 @@
 Problema 1003 BeeCrowd
 22.09.2026
 Alice Ribeiro Marenda
+LIAC - LIAC - Ler dois valores inteiros, armazenando-os em variaveis e somando ambos no final, exibindo o resultado assim "SOMA = resultado"
 */
 
 #include <stdio.h>

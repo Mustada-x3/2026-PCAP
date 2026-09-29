@@ -2,6 +2,7 @@
 Problema 1037 BeeCrowd
 29.09.2026
 Alice Ribeiro Marenda
+LIAC - Ler um número real. Decide qual dos quatro intervalos ele cai e imprime o nome do intervalo; fora deles, "Fora do intervalo"
 */
 
 #include <stdio.h>

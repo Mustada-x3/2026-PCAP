@@ -2,6 +2,7 @@
 Problema 1044 BeeCrowd
 29.09.2026
 Alice Ribeiro Marenda
+LIAC - Ler dois valores inteiros e determinar se eles são multiplos, imprindo a resposta "Sao Multiplos", para quando forem multiplos, e "Nao sao Multiplos" para quando não forem multiplos
 */
 
 #include <stdio.h>

@@ -2,6 +2,7 @@
 Problema 1004 BeeCrowd
 22.09.2026
 Alice Ribeiro Marenda
+LIAC - LIAC - Ler dois valores inteiros, armazenando-os em variaveis e multiplicando ambos no final, exibindo o resultado assim "PROD = resultado"
 */
 
 #include <stdio.h>

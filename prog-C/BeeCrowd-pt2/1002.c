@@ -2,6 +2,7 @@
 Problema 1002 BeeCrowd
 22.09.2026
 Alice Ribeiro Marenda
+LIAC - Calcular a área do circulo com base no tamanho do raio dele
 */
 
 #include <stdio.h>
