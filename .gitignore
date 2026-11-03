@@ -2,5 +2,5 @@ prog-C/*
 !prog-C/*.c
 Fliperama-C/*
 !Fliperama-C/*.c
-Prog-C++
-!Prog-cpp/*.cpp
+prog-cpp/*
+!prog-cpp/*.cpp
