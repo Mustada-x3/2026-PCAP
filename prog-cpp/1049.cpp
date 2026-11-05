@@ -1,6 +1,6 @@
 /*
 * Disciplina: 2026-PCAP
-* Problema  : BeeCrowd 1001 - Extremamente Básico
+* Problema  : BeeCrowd 1049 - Animal
 * Autor     : Alice Ribeiro Marenda
 * LIAC      : Le 3 palavras que definem o tipo de animal possível. Em seguida conclue qual dos animais que está disponivel em uma gama de aniamais foi escolhido, através das três palavras fornecidas
 */

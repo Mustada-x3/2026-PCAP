@@ -1,6 +1,6 @@
 /*
 * Disciplina: 2026-PCAP
-* Problema  : BeeCrowd 1001 - Extremamente Básico
+* Problema  : BeeCrowd 1002 - Área do Círculo
 * Autor     : Alice Ribeiro Marenda
 * LIAC      : Efetua o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π.
 */

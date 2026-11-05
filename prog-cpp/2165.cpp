@@ -1,6 +1,6 @@
 /*
 * Disciplina: 2026-PCAP
-* Problema  : BeeCrowd 1001 - Extremamente Básico
+* Problema  : BeeCrowd 2165 - Twitting
 * Autor     : Alice Ribeiro Marenda
 * LIAC      : Le um linha de texto (pode ter espaço). Se tiver até 140 caracteres imprime "TWEET", se tiver mais, "MUTE"
 */

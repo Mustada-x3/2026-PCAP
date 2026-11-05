@@ -1,6 +1,6 @@
 /*
 * Disciplina: 2026-PCAP
-* Problema  : BeeCrowd 1001 - Extremamente Básico
+* Problema  : BeeCrowd 1011 - Esfera
 * Autor     : Alice Ribeiro Marenda
 * LIAC      : Faz um programa que calcula e mostra o volume de uma esfera sendo fornecido o valor de seu raio (R
 */
