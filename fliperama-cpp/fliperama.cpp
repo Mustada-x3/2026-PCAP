@@ -84,11 +84,15 @@ void carregar(vector<string> &apelidos, vector<int> &partidas) {
     }
 }
 
-void cadastrar(vector<string> apelidos, vector<int> partidas) {
+void cadastrar(vector<string> &apelidos, vector<int> &partidas) {
     string novo;
 
     titulo("NOVO JOGADOR");
     novo = ler_texto("Apelido (sem espaços)");
+    if (buscar(apelidos, novo) != -1) {
+        cout << "Jogador já cadastrado! Tente outro apelido" << endl;
+        return;
+    }
 
     apelidos.push_back(novo);
     partidas.push_back(0);
