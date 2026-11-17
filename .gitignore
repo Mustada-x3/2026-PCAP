@@ -6,3 +6,4 @@ Fliperama-C/*
 !Fliperama-C/*.csv
 prog-cpp/*
 !prog-cpp/*.cpp
+fliperama-cpp/fliperama
