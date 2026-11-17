@@ -47,7 +47,7 @@ string ler_texto(string mensagem) {
     string texto;
 
     cout << mensagem << ": ";
-    cin >> texto;                     // Uma palavra, sem espaços
+    cin >> texto;               // Uma palavra, sem espaços
     return texto;
 }
 
