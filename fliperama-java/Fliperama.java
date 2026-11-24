@@ -2,10 +2,16 @@
 * Disciplina : 2026-PCAP
 * Projeto    : MeuApp v5.0 - o Fliperama em Java (Aula 33)
 * Autor      : Alice Ribeiro Marenda
-* LIAC       : Menu do Fliperama em java> metodos que desenham, um que le um número dentro de uma faixa, e o laçõ que s[ó para no 0
+* LIAC       : Menu com validação e cadastro de jogadores: cada jogador e um ficha (classe Jogador) guardada numa lista que cresce
 */
 
+import java.util.ArrayList;
 import java.util.Scanner;
+
+class Jogador {
+    String apelido;
+    int partidas;
+}
 
 public class Fliperama {
     static final String DONO = "ALICE";
@@ -43,6 +49,35 @@ public class Fliperama {
         return numero;
     }
 
+    static String lerTexto(String mensagem) {
+        System.out.print(mensagem + ": ");
+        return teclado.nextLine();
+    }
+
+    static void cadastrar(ArrayList<Jogador> jogadores) {
+        Jogador novo = new Jogador();
+
+        titulo("NOVO JOGADOR");
+        novo.apelido = lerTexto("Apelido");
+        novo.partidas = 0;
+        jogadores.add(novo);
+        System.out.println("Jogador" + novo.apelido + "cadastrado");
+    }
+
+    static void listar(ArrayList<Jogador> jogadores) {
+        Jogador j;
+        int i, qtd = jogadores.size();
+
+        titulo("JOGADORES CADASTRADOS");
+        if (qtd == 0) {
+            System.out.println("Nenhum jogador cadastrado ainda");
+        }
+        for (i = 0; i < qtd; i++) {
+            j = jogadores.get(i);
+            System.out.println(j.apelido + " | " + j.partidas + " partidas");
+        }
+    }
+
     static void mostrarMenu() {
         linha();
         System.out.println("    FLIPERAMA DO " + DONO);
@@ -55,17 +90,18 @@ public class Fliperama {
     }
 
     public static void main(String[] args) {
+        ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
         int opcao;
 
         mostrarMenu();
         opcao = lerNumero("Sua escolha", 0, 3);
         while (opcao != 0) {
             if (opcao == 1) {
-
+                
             } else if (opcao == 2) {
-
+                cadastrar(jogadores);
             } else {
-
+                listar(jogadores);
             }
             mostrarMenu();
             opcao = lerNumero("Sua escolha", 0, 3);
